@@ -1,13 +1,13 @@
 dependencies:
   build:
-    - ruby:2.6.0
+    - ruby:2.6.5
 
 build_targets:
   - name: default
     commands:
-      - gem install bundler
+      - gem install bundler -v 1.16.6
       - bundle install
-      - bundle exec rake test
+      - bundle exec rspec
 
 ci:
   builds:
