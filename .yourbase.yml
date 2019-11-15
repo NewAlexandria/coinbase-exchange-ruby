@@ -1,6 +1,6 @@
 dependencies:
   build:
-    - ruby:2.6.0
+    - ruby:2.6.5
 
 build_targets:
   - name: default
